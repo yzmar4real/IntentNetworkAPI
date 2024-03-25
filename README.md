@@ -63,6 +63,10 @@ python3 -m venv .
 
 source bin/activate
 
+5. (Optional) Execute the requirement.txt file to install the requirements for the project
+
+pip3 install -r requirements.txt
+
 ## Step 2 - Defining the Testbed for devices to be audited
 
 1. Edit genie.yml file to include parameters for your devices. The default file in the example connects to Cisco's Always On IOSXE sandbox. 
