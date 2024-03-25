@@ -23,10 +23,13 @@ Once the python script is started, we utilize Postman to push the API endpoint t
 *Oluyemi Oshunkoya (yemi_o@outlook.com)
 
 ## Solution Components
-**Python
-**Genie
-**PYATS
-**FastAPI
+**Python**
+
+**Genie**
+
+**PYATS**
+
+**FastAPI**
 
 ## Prerequisites 
 
