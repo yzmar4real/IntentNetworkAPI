@@ -1,0 +1,14 @@
+devices:
+  NXOS_Switch2:
+    connections:
+      cli:
+        ip: sandbox-iosxe-latest-1.cisco.com
+        protocol: ssh
+    credentials:
+      default:
+        password: C1sco12345
+        username: admin
+      enable:
+        password: C1sco12345
+    os: iosxe
+    type: iosxe
