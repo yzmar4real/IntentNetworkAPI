@@ -82,4 +82,6 @@ python3 Main.py
 
 ## Step 4 - Use Postman or Other Suitable Client to Trigger the API
 
-1. Execute the API via Postman Client on the suggested port.  
+1. Execute the API via Postman Client on the suggested port.
+
+![SampleOutcomes001](SnapShot001.png)
