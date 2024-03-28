@@ -41,8 +41,11 @@ This can be done either by using the pre-setup docker image for PYATS or using y
 
 ### Option A - Using the Docker Image 
 
-1. Download and setup docker suitable for your Operating System 
+1. Download and setup docker engine suitable for your Operating System 
+
+```
 https://docs.docker.com/get-docker/
+```
 
 2. Download the latest version of the PYATS from docker hub
    
@@ -79,23 +82,33 @@ pip3 install -r requirements.txt
 
 1. Clone the repository
 
+```
 git clone https://github.com/yzmar4real/IntentNetworkAPI.git
+```
 
 2. CD into the directory 
 
+```
 cd IntentNetworkAPI
+```
 
 3. Use the directory as a virtual environment for the project
 
+```
 python3 -m venv . 
+```
 
 4. Start the virtual environment and install the requirements for the project
 
+```
 source bin/activate
+```
 
 5. Execute the requirement.txt file to install the requirements for the project
 
+```
 pip3 install -r requirements.txt
+```
 
 ## Step 2 - Defining the Testbed for devices to be audited
 
@@ -105,13 +118,17 @@ pip3 install -r requirements.txt
 
 1. Execute the main script from console
 
+```
 python3 Main.py
+```
 
 ## Step 4 - Use Postman or Other Suitable Client to Trigger the API
 
 1. URL to be executed is :
 
-   http://<your_device_ip_address>:3443/v1/route_check  (in the example below - its http://10.40.10.18/v1/route_check)
+```
+http://<your_device_ip_address>:3443/v1/route_check  (in the example below - its http://10.40.10.18/v1/route_check)
+```
 
 2. Execute the API via Postman Client on the suggested port.(3443)
 
