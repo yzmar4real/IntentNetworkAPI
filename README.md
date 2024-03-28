@@ -52,25 +52,28 @@ $ docker pull ciscotestautomation/pyats:latest
 
 4. Run the docker image 
 
-'''
+```
 $ docker run -it ciscotestautomation/pyats:latest /bin/bash
-'''
+```
 
 4. Clone the repository
 
-'''
+```
 git clone https://github.com/yzmar4real/IntentNetworkAPI.git
-'''
+```
+
 
 5. CD into the directory 
-'''
+
+```
 cd IntentNetworkAPI
+```
 
 6. Execute the requirement.txt file to install the requirements for the project
 
-'''
+```
 pip3 install -r requirements.txt
-'''
+```
 
 ### Option B - Using GIT to setup the environment
 
