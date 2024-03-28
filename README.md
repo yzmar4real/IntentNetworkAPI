@@ -46,9 +46,9 @@ https://docs.docker.com/get-docker/
 
 2. Download the latest version of the PYATS from docker hub
    
-'''
+```
 $ docker pull ciscotestautomation/pyats:latest
-'''
+```
 
 4. Run the docker image 
 
