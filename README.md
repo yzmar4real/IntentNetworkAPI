@@ -1,4 +1,7 @@
 # IntentNetworkAPI
+
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/yzmar4real/IntentNetworkAPI)
+
 Intent-based Network API - leveraging FastAPI &amp; Cisco PyATS to power intent.
 
 Python Code driven by FastAPI and Cisco's PyATS framework to demonstrate powering Network Automation via Intent based APIs.
