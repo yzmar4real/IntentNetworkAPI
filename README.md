@@ -105,3 +105,7 @@ python3 Main.py
 2. Execute the API via Postman Client on the suggested port.(3443)
 
 ![SampleOutcomes001](SnapShot001.png)
+
+3. Results should show as below
+
+![SampleOutcomes001](SnapShot002.png)
