@@ -34,6 +34,7 @@ Once the python script is started, we utilize Postman to push the API endpoint t
 ## Prerequisites 
 
 Python3.6 and above
+API Client (e.g Postman)
 
 ## Step 1 - Setting up the enivronment
 This can be done either by using the pre-setup docker image for PYATS or using your python environment. 
