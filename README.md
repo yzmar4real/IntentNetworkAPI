@@ -45,25 +45,33 @@ This can be done either by using the pre-setup docker image for PYATS or using y
 https://docs.docker.com/get-docker/
 
 2. Download the latest version of the PYATS from docker hub
-
+   
+'''
 $ docker pull ciscotestautomation/pyats:latest
+'''
 
-3. Run the docker image 
+4. Run the docker image 
 
+'''
 $ docker run -it ciscotestautomation/pyats:latest /bin/bash
+'''
 
 4. Clone the repository
 
+'''
 git clone https://github.com/yzmar4real/IntentNetworkAPI.git
+'''
 
 5. CD into the directory 
-
+'''
 cd IntentNetworkAPI
 
 6. Execute the requirement.txt file to install the requirements for the project
 
+'''
 pip3 install -r requirements.txt
- 
+'''
+
 ### Option B - Using GIT to setup the environment
 
 1. Clone the repository
